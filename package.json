@@ -1,0 +1,21 @@
+{
+  "name": "javiermartinez.dev",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "new:post": "cross-env HYGEN_TMPLS=node_modules/@64robots/nuxt-content-blog/src/_templates hygen post new",
+    "new:author": "cross-env HYGEN_TMPLS=node_modules/@64robots/nuxt-content-blog/src/_templates hygen author new",
+    "new:category": "cross-env HYGEN_TMPLS=node_modules/@64robots/nuxt-content-blog/src/_templates hygen category new"
+  },
+  "dependencies": {
+    "@64robots/nuxt-content-blog": "^0.2.5",
+    "nuxt": "^2.14.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
