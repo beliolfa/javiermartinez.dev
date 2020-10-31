@@ -59,50 +59,9 @@ export default {
 }
 </script>
 ```
-#### Duplicating the video into a canvas
-Now that we have our camera in place we are going to capture the video using a canvas stream. Before that, we need to duplicate the video into a canvas (which is going to be hidden).
 
-The magic occurs in the `updateCanvas` method that we are going to call recursively using [requestAnimationFrame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame)
-```js[demo.vue]
-<template>
-  <div>
-    <video ref="video" width="100%" muted />
-    <canvas v-show="false" ref="canvas" />
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      // ...
-      context: null,
-    }
-  },
-
-  async mounted() {
-      // ...
-      this.video.onloadedmetadata = () => {
-        this.video.play()
-        this.$refs.canvas.width = this.video.videoWidth
-        this.$refs.canvas.height = this.video.videoHeight
-        this.updateCanvas()
-      }
-      this.context = this.$refs.canvas.getContext('2d')
-  },
-
-  methods: {
-    updateCanvas() {
-      if (this.video.ended || this.video.paused) return
-      this.context.drawImage(this.video, 0, 0, this.video.videoWidth, this.video.videoHeight)
-      requestAnimationFrame(this.updateCanvas)
-    },
-  }
-}
-</script>
-```
 #### Capturing chunks of video
-Our canvas is duplicating everything that happens in the video. We are going to capture a stream of 30 frames on it. For that, we start up a `MediaRecorder` with the stream as a first param and an options object as second param. `MediaRecorder.start()` accepts a param, which is the length in milliseconds of the chunk.
+Now that we have our video stream. We are going to record it. For that, we start up a `MediaRecorder` with the stream as a first param and an options object as second param. `MediaRecorder.start()` accepts a param, which is the length in milliseconds of the chunk.
 ```js[demo.vue]
 <script>
 export default {
@@ -115,13 +74,11 @@ export default {
 
   async mounted() {
       // ...
-      this.context = this.$refs.canvas.getContext('2d')
-      const mediaStream = this.$refs.canvas.captureStream(30)
-      this.mediaRecorder = new MediaRecorder(mediaStream, {
+      this.mediaRecorder = new MediaRecorder(this.cameraStream, {
         mimeType: 'video/webm',
         videoBitsPerSecond: 3000000,
       })
-      this.mediaRecorder.start(2000)
+      this.mediaRecorder.start(1000)
   },
 
   // ...
