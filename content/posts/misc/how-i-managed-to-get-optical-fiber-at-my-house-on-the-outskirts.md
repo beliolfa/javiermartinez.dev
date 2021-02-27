@@ -15,10 +15,10 @@ Working in a remote-first company like 64 Robots, having a decent internet conne
 ## Taking the fiber from the town to the area
 At that time we didn’t even have streetlights on the main road so the first step was asking the council to install the needed poles and lamps. They answered that they would need signatures from every neighbor in the street. An 80-year-old retired neighbor was literally stopping by every single person that crossed the street. That’s why we got the streetlights.
 
-Knowing that the council was about to install the poles I went to the fiber company offices and suggested them to take advantage of that and deploy the wire at the same time. After a couple of months of negotiations, they signed a deal so they can use those poles for their business.
+Knowing that the council was about to install the poles, I went to the fiber company's offices and suggested to them to take advantage of that and deploy the wire at the same time. After a couple of months of negotiations, they signed a deal so they can use those poles for their business.
 ![image](https://user-images.githubusercontent.com/12644599/109396214-d2629800-7930-11eb-8f06-c15317c52456.png)
 ## Taking the fiber from the main road to my house
-There was a little problem now. My house was 120mt away from the nearest pole.
+There was a little problem. My house was 120mt away from the nearest pole.
 ![image](https://user-images.githubusercontent.com/12644599/109396260-0211a000-7931-11eb-973e-d176567a6720.png)
 It started a whole new year, aggravated by the pandemic, of more negotiations with the fiber company. They refused to do anything about the problem and washed their hands. Then I passed to B plan and talked with my inner neighbors, 4 out of 5 agreed to carry out a renovation of the internal path that communicates the main road with our houses.
 ## A new path
@@ -44,3 +44,4 @@ Then we ordered two trucks with plenty of gravel and extended it along the path 
 Finally, we put a couple of caskets on each house so they have easy access to fiber connection and water supply.
 ![image](https://user-images.githubusercontent.com/12644599/109399720-d00a3900-7944-11eb-8957-33872c142fd2.png)
 ![image](https://user-images.githubusercontent.com/12644599/109399789-28413b00-7945-11eb-8e46-5ec069b0dec6.png)
+And that's all! I am waiting for the technician to connect the ends. I Will let you know how it feels!
