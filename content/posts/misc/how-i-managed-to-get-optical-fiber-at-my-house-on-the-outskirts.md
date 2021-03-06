@@ -44,4 +44,7 @@ Then we ordered two trucks with plenty of gravel and extended it along the path 
 Finally, we put a couple of caskets on each house so they have easy access to fiber connection and water supply.
 ![image](https://user-images.githubusercontent.com/12644599/109399720-d00a3900-7944-11eb-8957-33872c142fd2.png)
 ![image](https://user-images.githubusercontent.com/12644599/109399789-28413b00-7945-11eb-8e46-5ec069b0dec6.png)
-And that's all! I am waiting for the technician to connect the ends. I Will let you know how it feels!
+The last step was connecting the wires inside the casket with my house using the roof and the same tube used for the satellite antenna.
+![House Roof](https://user-images.githubusercontent.com/12644599/110220068-8fba3600-7ec3-11eb-9852-a4f68edd5fa2.jpg)
+![Speed test](https://user-images.githubusercontent.com/12644599/110220163-0820f700-7ec4-11eb-961f-a77208b90ebd.jpeg)
+And that's all! I finally have a century 21 connection!

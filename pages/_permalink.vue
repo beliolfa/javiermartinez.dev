@@ -19,7 +19,6 @@
           <div class="mt-1">
             <span class="text-sm font-medium text-gray-700">{{ post.readingTime }}</span>
             <span>|</span>
-            <!-- <LayoutTime v-if="post.createdAt" class="text-sm font-medium text-gray-700" :date="post.createdAt" /> -->
             <span class="text-sm font-medium text-gray-700">{{ post.createdAt | date }}</span>
           </div>
 
