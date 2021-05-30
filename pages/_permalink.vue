@@ -15,7 +15,7 @@
         </div>
 
         <div class="mt-8">
-          <h1 class="mt-2 text-2xl md:text-4xl font-medium leading-7">{{ post.title }}</h1>
+          <h1 class="mt-2 text-2xl md:text-4xl font-medium leading-10">{{ post.title }}</h1>
           <div class="mt-1">
             <span class="text-sm font-medium text-gray-700">{{ post.readingTime }}</span>
             <span>|</span>
