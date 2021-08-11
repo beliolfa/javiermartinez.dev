@@ -10,7 +10,7 @@ createdAt: 2021-08-11T17:19:15.838Z
 
 Estamos de acuerdo en que Vue es una excelente opción para desarrollar una aplicación moderna y escalable, pero hay ciertas preguntas que acabamos haciéndonos cada vez que empezamos un nuevo proyecto: ¿Dónde debería crear mis componentes? ¿Cómo debo hacer las llamadas al backend? ¿Cómo optimizo los recursos para que mi aplicación sea rápida? ¿Cómo hago que mi web sea segura? ¿Cómo implemento un sistema de autenticación que sea confiable?
 
-Estas y muchas otras cuestiones vienen a nuestra cabeza en ciertos puntos del desarrollo de nuestra aplicación. Es aquí donde Nuxt entra en juego para ayudarnos a crear aplicaciones preparadas para ser desplegadas en producción, sin necesidad de tomar estas decisiones. Basándose en las mejores prácticas, los hermanos [Sébastien](https://twitter.com/Atinux) y [Alexandre](https://twitter.com/iamnuxt) Chopin, junto a [su equipo](https://nuxtjs.org/team), han recopilado y puesto en práctica años de experiencia desarrollando tanto en Vue como en Node. Sugiriéndonos un boilerplate y una estructura de directorios predefinidos.
+Estas y muchas otras cuestiones vienen a nuestra cabeza en ciertos puntos del desarrollo de nuestra aplicación. Es aquí donde [Nuxt](https://nuxtjs.org) entra en juego para ayudarnos a crear aplicaciones preparadas para ser desplegadas en producción, sin necesidad de tomar estas decisiones. Basándose en las mejores prácticas, los hermanos [Sébastien](https://twitter.com/Atinux) y [Alexandre](https://twitter.com/iamnuxt) Chopin, junto a [su equipo](https://nuxtjs.org/team), han recopilado y puesto en práctica años de experiencia desarrollando tanto en Vue como en Node. Sugiriéndonos un boilerplate y una estructura de directorios predefinidos.
 
 Además, en el momento de la instalación, Nuxt te irá guiando en el proceso de configuración de este boilerplate. Permitiéndote elegir tu procesador y librería de CSS favorita, linter, librería de testing, etc...
 
@@ -24,6 +24,6 @@ Otro problema que nos surge a la hora de desplegar una aplicación Vue es la dif
 
 ¿Necesitas más control? No hay problema. Nuxt basa todo su funcionamiento en el fichero `nuxt.config.js` el cual te permitirá sobreescribir cualquier configuración por defecto.
 
-Todo esto, y mucho más, lo trato en detalle en mi libro `Nuxt 3: Desarrolla aplicaciones web modernas y escalables` que puedes encontrar en preventa [LeanPub](https://leanpub.com/nuxt3spanish). Si quieres hacerte con una copia con el 50% de descuento y apoyarme a seguir creando contenido, puedes adquirirlo en este [enlace](https://leanpub.com/nuxt3spanish).
+Todo esto, y mucho más, lo trato en detalle en mi libro `Nuxt 3: Desarrolla aplicaciones web modernas y escalables` que puedes encontrar en preventa en [LeanPub](https://leanpub.com/nuxt3spanish). Si quieres hacerte con una copia con el 50% de descuento y apoyarme a seguir creando contenido, puedes adquirirlo en este [enlace](https://leanpub.com/nuxt3spanish).
 
 ¡Gracias!
