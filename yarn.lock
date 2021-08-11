@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@64robots/nuxt-content-blog@^0.2.6":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@64robots/nuxt-content-blog/-/nuxt-content-blog-0.2.6.tgz#ad1c5199e2fb8950c3487d6ac53ff79f58b0859c"
-  integrity sha512-uQDdSWuJxImibhfPAYq1iFH6ONWgHS4wsij917CLGajqc7kz5W9rdrgFaGhFUU37SsauACMI34qQkKcHJQ0RfA==
+"@64robots/nuxt-content-blog@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@64robots/nuxt-content-blog/-/nuxt-content-blog-0.2.7.tgz#247c4ee13035aa97cee9be6d79c3436be52fc13b"
+  integrity sha512-PzM+Lxir023O0m6aq6BpjmvGGLV9KO+0vYh6x2zriajBsj8u2q5HAylbSb4y4DjOnPpvDxLsw2b/4M1FYhaYPQ==
   dependencies:
     "@nuxt/content" "^1.8.1"
     "@nuxt/types" "^2.14.4"
