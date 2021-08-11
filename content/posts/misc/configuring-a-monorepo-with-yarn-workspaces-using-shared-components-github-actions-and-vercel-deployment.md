@@ -7,7 +7,7 @@ category: misc
 createdAt: 2021-05-30T11:34:23.282Z
 ---
 
-In [Remate](https://remate.io/), We have two apps. One for the web made with Nuxt and the other for desktop made with Electron. So far so good but once the development is quite advanced we started to notice that there were components that had been used in both projects. This also applies to the API endpoints and more stuff.
+In [Remate](https://remate.io/), We have two apps. One for the web made with [Nuxt](https://nuxtjs.org/) and the other for desktop made with [Electron](https://www.electronjs.org/). So far so good but once the development is quite advanced we started to notice that there were components that had been used in both projects. This also applies to the API endpoints and more stuff.
 
 Last week we decided to merge those two projects into a unique monorepo. That way we could have shared components YAY! But, wait a moment, is that going to work just out of the box? Short answer: No. Long answer: Yes, with Yarn Workspaces.
 

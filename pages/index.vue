@@ -7,7 +7,7 @@
   <h1 class="text-3xl font bold my-8">Latest Posts</h1>
   <PostList v-slot="{ posts }">
     <div class="grid gap-12 lg:grid-cols-2">
-      <ArticleListItem v-for="post in posts" :key="post.path" :post="post" />
+      <ArticleListItem use-lang-folder v-for="post in posts" :key="post.path" :post="post" />
     </div>
   </PostList>
 </div>

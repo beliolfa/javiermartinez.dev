@@ -1,14 +1,11 @@
 <template>
   <div>
       <div class="flex items-center justify-between py-4">
-        <nuxt-link :to="{ name: 'index' }">
           <h1
-            class="text-2xl font-semibold leading-6 transition ease-in-out duration-300 hover:bg-blue-100 py-2 pl-1 pr-5 inline-block"
+            class="text-2xl font-semibold leading-6"
           >
-            I'm Javier Martinez. 💃 Welcome!
+            <nuxt-link class="transition ease-in-out duration-300 hover:bg-blue-100 p-2 inline-block" :to="{ name: spanish ? 'es' : 'index' }">{{ welcomeText }}</nuxt-link> <span class="text-gray-600 text-sm">{{ changeLanguageText }} <nuxt-link :to="{ name: spanish ? 'index' : 'es' }">{{ spanish ? 'here' : 'aquí' }}</nuxt-link></span>
           </h1>
-        </nuxt-link>
-
         <div class="flex items-center text-gray-600">
           <a href="https://twitter.com/beliolfa" class="hover:text-blue-500 mr-4">
             <svg
@@ -51,7 +48,21 @@
 </template>
 
 <script>
-  export default {
-    name: 'LayoutHeader'
+export default {
+  name: 'LayoutHeader',
+
+  computed: {
+    spanish() {
+      return this.$route.fullPath.includes('/es')
+    },
+
+    welcomeText() {
+      return this.spanish ? 'Soy Javier Martínez, 💃 Bienvenid@!' :  "I'm Javier Martinez. 💃 Welcome!"
+    },
+
+    changeLanguageText() {
+      return this.spanish ? 'Welcome, you can switch to english' :  'Bienvenid@, puedes cambiar al español'
+    }
   }
+}
 </script>
