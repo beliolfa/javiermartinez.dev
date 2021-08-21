@@ -52,6 +52,4 @@ También creé, junto con un compañero de módulo, la empresa DISITEC, dedicada
 Actualmente soy tremendamente feliz junto a mi mujer y mis dos hijos. Mi madre y mi hermana viven a 5 minutos de mi casa y seguimos siendo una pequeña familia. Ahora con tres miembros más y dos perros. Vivimos en la huerta de Murcia, en una casa con limoneros a la que hemos bautizado `Villa Dorotea` en honor a mi abuela.
 ![IMG_4056](https://user-images.githubusercontent.com/12644599/130330400-d93bea31-18f0-4e70-851b-630516af5619.jpeg)
 
-¡Ah! ¡También soy escritor! Además de dar la chapa en este blog he escrito un libro sobre Nuxt 3: [Desarrolla aplicaciones web modernas y escalables](https://leanpub.com/nuxt3spanish) que puedes encontrar en preventa en [LeanPub](https://leanpub.com/nuxt3spanish). Si quieres hacerte con una copia con el 50% de descuento y apoyarme a seguir creando contenido, puedes adquirirlo en este [enlace](https://leanpub.com/nuxt3spanish).
-
 ¡Gracias por leerme! Si quieres darme tu feedback sobre este artículo tan personal te lo agradecería enormemente. Puedes encontrarme en [twitter](https://twitter.com/beliolfa). 😘
