@@ -4,9 +4,9 @@
       <div v-if="error.code">
         No post found
       </div>
-      <article v-else class="max-w-4xl w-full mx-auto">
+      <article v-else>
+        <img class="flex-1 h-post-image w-full object-cover" :src="post.image" :alt="post.title" />
         <div class="relative">
-          <img class="flex-1 h-64 w-full object-cover" :src="post.image" :alt="post.title" />
           <AuthorAvatar
             :author="author"
             class="absolute"
@@ -14,7 +14,7 @@
           />
         </div>
 
-        <div class="mt-8">
+        <div class="mt-8 max-w-4xl w-full mx-auto">
           <h1 class="mt-2 text-2xl md:text-4xl font-medium leading-10">{{ post.title }}</h1>
           <div class="mt-1">
             <span class="text-sm font-medium text-gray-700">{{ post.readingTime }}</span>

@@ -12,7 +12,7 @@
     "new:category": "cross-env HYGEN_TMPLS=node_modules/@64robots/nuxt-content-blog/src/_templates hygen category new"
   },
   "dependencies": {
-    "@64robots/nuxt-content-blog": "^0.2.7",
+    "@64robots/nuxt-content-blog": "^0.2.8",
     "nuxt": "^2.14.5"
   },
   "devDependencies": {

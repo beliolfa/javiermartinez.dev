@@ -41,9 +41,6 @@
           </a>
         </div>
       </div>
-      <nuxt-link :to="{ name: 'index' }">
-        <img class="mt-4" src="https://user-images.githubusercontent.com/12644599/92306359-c227bc80-ef8e-11ea-91ba-671002208621.jpg">
-      </nuxt-link>
   </div>
 </template>
 
