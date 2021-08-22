@@ -39,7 +39,7 @@ Por suerte, ese donate apareció y mi hermana pudo recuperarse totalmente del c�
 ![070CD006-8B0A-475E-B60B-DF48CD16AE83](https://user-images.githubusercontent.com/12644599/130328279-f3d0179d-8860-4919-aae3-619184a2c1ba.jpg)
 
 ### Golpe definitivo
-Año 2000. El futuro. Yo a punto de cumplir 18 años y entrar como adulto en un nuevo milenio. La recuperación de mi hermana nos dio un chute de energía. Terminé la E.G.B. y la E.S.O. y me disponía a arrancar el Bachillerato. También acababa de conocer al amor de mi vida, futura esposa y madre de mis hijos. Todo iba bien hasta que nos enteramos de que mi abuela-mamá tenia cáncer. Uno de estómago, en fase avanzada, incurable. Todo pasó muy rápido y para septiembre de ese año ya no la tenía.
+Año 2000: el futuro. Yo a punto de cumplir 18 años y entrar como adulto en un nuevo milenio. La recuperación de mi hermana nos dio un chute de energía. Terminé la E.G.B. y la E.S.O. y me disponía a arrancar el Bachillerato. También acababa de conocer al amor de mi vida, futura esposa y madre de mis hijos. Todo iba bien hasta que nos enteramos de que mi abuela-mamá tenia cáncer. Uno de estómago, en fase avanzada, incurable. Todo pasó muy rápido y para septiembre de ese año ya no la tenía.
 ![130328921-13364ad7-60c2-4df5-b18d-79af7a177685 (1)](https://user-images.githubusercontent.com/12644599/130332109-6b169337-05a8-43eb-952d-c813a496553e.jpeg)
 
 ### Un punto de inflexión
