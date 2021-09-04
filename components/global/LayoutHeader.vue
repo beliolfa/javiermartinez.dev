@@ -2,11 +2,19 @@
   <div>
     <div class="flex items-center justify-between py-4">
       <h1
-        class="text-2xl font-semibold leading-6"
+        class="text-2xl font-semibold leading-6 p-2"
       >
-        <nuxt-link class="transition ease-in-out duration-300 hover:bg-blue-100 p-2 inline-block" :to="{ name: spanish ? 'es' : 'index' }">{{ welcomeText }}</nuxt-link> <span class="text-gray-600 text-sm">{{ changeLanguageText }} <nuxt-link :to="{ name: spanish ? 'index' : 'es' }">{{ spanish ? 'here' : 'aquí' }}</nuxt-link></span>
+        <nuxt-link class="transition ease-in-out duration-300 hover:bg-blue-100 inline-block" :to="{ name: spanish ? 'es' : 'index' }">{{ welcomeText }}</nuxt-link>
+        <span class="hidden md:block pt-2 text-gray-600 text-sm">{{ changeLanguageText }} <nuxt-link :to="{ name: spanish ? 'index' : 'es' }" class="font-bold underline">{{ spanish ? 'here' : 'aquí' }}</nuxt-link></span>
       </h1>
       <div class="flex items-center text-gray-600">
+        <select
+          @change="changeLanguage"
+          class="h-12 mr-4"
+        >
+          <option :selected="spanish" value="es">ES</option>
+          <option  :selected="!spanish" value="">EN</option>
+        </select>
         <a href="https://twitter.com/beliolfa" class="hover:text-blue-500 mr-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,6 +68,12 @@ export default {
 
     changeLanguageText() {
       return this.spanish ? 'Welcome, you can switch to english' :  'Bienvenid@, puedes cambiar al español'
+    },
+  },
+
+  methods: {
+    changeLanguage(e) {
+      this.$router.push(`/${e.target.value}`)
     }
   }
 }
